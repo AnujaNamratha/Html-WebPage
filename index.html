@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="assets/css/A.bootstrap.min.css+template.css+fa.min.css+gfonts.min.css,Mcc.LI5f1xXhbm.css.pagespeed.cf.G00NPyYGCq.css" rel="stylesheet" media="screen" />
+    <title>home page</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+      </style>
+    <style>
+        body {
+          background-image: url('background.jpg');
+          background-repeat: no-repeat;
+         background-attachment: fixed;
+          background-size:1400px 1000px;
+          
+        }
+   </style>
+        <style>
+            
+            
+            .topnav {
+              overflow: hidden;
+              padding-top: 20px;
+              padding-left: 30px;
+              padding-right: 30px;
+              
+             
+            }
+            
+            .topnav a {
+              float: left;
+              color: #f2f2f2;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+              font: size 30px;
+              font-weight: 900;
+            }
+            .topnav a.active {
+                background-color: #997263;
+                color: white;
+                opacity: 0.9;
+              }
+            
+            .topnav a:hover {
+              background-color: #ddd;
+              color: black;
+              opacity: 0.3;
+            }
+            .sidenav a {
+                background-color: #f4eee7;
+                float:right;
+                color: black;
+                padding: 14px 20px;
+                font: size 40px;
+                opacity: 0.7;
+                margin: 10px;
+            }
+            .sidenav a:hover {
+                background-color: #ddd;
+                color: black;
+                opacity: 0.3;
+              }
+            
+            .body {
+                background-color: #33384e;
+                float:none;
+                color: black;
+                padding: 100px 100px;
+                font: size 40px;
+                opacity: 0.9;
+                margin: 50px;
+            }
+            .intro {
+              
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+              width: 100%;
+                padding-right: 15px;
+                padding-left: 15px;
+                margin-right: auto;
+                margin-left: auto;
+            
+          }
+          .into :hover{
+            background-color: #ddd;
+            color: black;
+            opacity: 0.3;
+
+          }
+          .last{
+            font-size: x-large;
+              opacity: unset;
+              font-family: 'Raleway', sans-serif;
+              color: black;
+              font-weight: 700;
+              text-align:left;
+          }
+
+          input[type=button]  {
+              background-color: #c9a27e;
+              border: none;
+              color: black;
+              padding: 10px 30px;
+              text-decoration: none;
+              margin: 4px 2px;
+              font-weight:bolder;
+              opacity:unset;
+              font-size: larger;
+              font-family: 'Raleway Dots', cursive;
+          }
+
+          .courses {
+            background-color: #997263;
+            text-align: center;
+            padding: 50px 70px;
+            font-family: 'Raleway', sans-serif;
+            font-size: xx-large;
+            
+              width: 100%;
+              padding-right: 15px;
+              padding-left: 15px;
+              margin-right: auto;
+              margin-left: auto;
+          
+          }
+          #main{
+            font-family: 'Raleway', sans-serif;
+            font-size: x-large;
+          }
+          #about{
+            font-family: 'Raleway', sans-serif;
+            font-size: large;
+            padding-bottom: 30px;
+          }
+          #page #page2{
+            font-family: 'Raleway', sans-serif;
+            
+            text-align: center;
+
+          }
+          *, ::after, ::before {
+            box-sizing: border-box;
+        }
+        div {
+          display: block;
+      }
+          .row {
+            
+            display: flex;
+            padding-top: 20px;
+            flex-wrap: wrap;
+           
+        }
+        .col-lg-4{
+          padding-top: 40px;
+        }
+          .col,  .col-lg-4,.col-md-6 {
+            position:relative;
+           
+            min-height: 1px;
+            padding-right: 15px;
+            padding-left: 15px;
+            
+            width: 33.3%;
+            display:inline-block;
+          }
+        .categorie-item .ci-thumb {
+          background-size: cover;
+          height: 148px;
+          transition: all 0.2s;
+      }
+      
+      .col-lg-4:hover {
+        background-color:#32374e;
+        
+      }
+      .categorie-item .ci-text {
+        padding: 40px 35px;
+    }
+    .set-bg {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top center;
+  }
+  .categorie-item {
+    margin-bottom: 34px;
+    transition: all 0.4s;
+   } 
+   .select{
+   background-color: #32374e;
+   padding-top: 50px;
+     text-align: center;
+     margin-top:  200px;
+     margin-bottom: 50px;
+     font-family: 'Raleway', sans-serif;
+     font-weight:900;
+     font-size: xx-large;
+   }
+   
+        .site-btn {
+          display: inline-block;
+          min-width: 196px;
+          text-align: center;
+          border: none;
+          padding: 15px 10px;
+          font-weight: 600;
+          font-size: 16px;
+          position: relative;
+          color: #fff;
+          cursor: pointer;
+          background: #997263;
+          min-width: auto;
+            padding: 10px 20px;
+        }
+
+        .course-search-form{
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+          }
+          .search{
+            background-color:#d8c3ab;
+            float:none;
+                color: black;
+                padding: 100px 100px;
+                font: size 40px;
+                opacity: 0.9;
+                margin: 50px;
+                margin-bottom: 50px;
+                padding-bottom: 50px;
+                border-bottom:50px #32374e;
+          }
+         .lasts{
+          font-size: x-large;
+              opacity: unset;
+              font-family: 'Raleway', sans-serif;
+              color: black;
+              font-weight: 600;
+              text-align:left;
+         } 
+
+        </style>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <div class="sidenav">
+            
+            <a class="login" href="#login">Login</a>
+          
+        </div>
+     </div>
+
+   <div class="body">
+     <p style="text-align:center;font-size:50px;font-family: 'Raleway', sans-serif;font-weight:bolder;color:white"><b>Get The Best Free Online Courses</b></p>
+     <p style="text-align:center;;font-size:30px;font-family: 'Raleway', sans-serif;font-weight:bold;color:ivory ">Sign Up and Start Learning!</p>
+    <form class="intro">
+        <input type="text" class="last"placeholder="Name" >
+        <input type="text" class="last" placeholder="E-mail">
+        <input type="button"  value="Sign Up">
+        
+   
+   </form>
+   </div>
+   <div class="courses">
+       <h2><b>Course Categories</b></h2>
+       <p id="main">
+        <b>The world's largest selection of courses</b></p>
+        <p id="about"><em><b>Choose from 155,000 online video courses with new additions published every month.</b></em></p>
+     
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+                <div class="categorie-item">
+                  <img src="design.jpg" alt="Development" style="width:80%">
+                  <div class="ci-text">
+                        <h5>Design</h5>
+                        
+                        <span style="font-size:larger;">120 Courses</span>
+                    </div>
+                </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6">
+            <div class="categorie-item">
+              <img src="development.jpg" alt="Development" style="width:80%">
+              <div class="ci-text">
+               <figcaption> <h5>Development</h5></figcaption>
+                
+                <span>70 Courses</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6">
+            <div class="categorie-item">
+              <img src="it and software.jpg" alt="Development" style="width:80%">
+              <div class="ci-text">
+                <h5>IT &amp; Software</h5>
+                
+                <span>55 Courses</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6">
+            <div class="categorie-item">
+              <img src="marketing.jpg" alt="Development" style="width:80%">
+              <div class="ci-text">
+                <h5>Marketing</h5>
+               
+                <span>40 Courses</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6">
+            <div class="categorie-item">
+              <img src="photography.jpg" alt="Development" style="width:80%;">
+              <div class="ci-text">
+                <h5>Photography</h5>
+                
+                <span>220 Courses</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6">
+            <div class="categorie-item">
+              <img src="buisness.2jpg.jpg" alt="Development" style="width:80%">
+              <div class="ci-text">
+                <h5>Business</h5>
+               
+                <span>25 Courses</span>
+              </div>
+            </div>
+          </div>
+       </div>
+      </div>
+
+     </div>   
+   </div>
+  
+
+  </div>
+  <div class="select">
+    <h2 style="color:#fff; font-weight: 900;">Search Your Course</h2>
+    <div class="search">
+     
+      <form class="course-search-form">
+        <input type="text" class="lasts" placeholder="Course">
+        <input type="text" class="lasts" placeholder="Category">
+        <button class="site-btn">Search Couse</button>
+        </form>
+    </div>
+
+
+  </div>
+  
+  
+
+   
+   
+
+     
+</body>
+</html>
